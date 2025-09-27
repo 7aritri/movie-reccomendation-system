@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Recommender</title>
+    
+</head>
+<body>
+    <h1>Movie Recommender System</h1>
+    <form action="/recommend_ui" method="post">
+        <label>Movie Title:</label>
+        <input type="text" name="title" required>
+        <label>Number of Recommendations:</label>
+        <input type="number" name="num_recommendations" value="5">
+        <button type="submit">Get Recommendations</button>
+    </form>
+
+    {% if recommendations %}
+        <h2>Recommended Movies:</h2>
+        <ul>
+        {% for movie in recommendations %}
+            <li>{{ movie }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+</body>
+</html>
