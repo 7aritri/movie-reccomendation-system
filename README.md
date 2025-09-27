@@ -203,14 +203,6 @@ pip freeze > requirements.txt
 
 ---
 
-License
-
-(You can choose a license, e.g., MIT, Apache 2.0, etc.)
-
-This project is released under the MIT License — see the LICENSE file for details.
-
-
----
 
 Credits & Acknowledgments
 
