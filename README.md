@@ -94,7 +94,7 @@ movies_clean.csv
 python main.py
 
 
-3. Open your browser and navigate to the displayed URL (e.g. http://127.0.0.1:5000).
+3. Open your browser and navigate to the displayed URL (e.g. http://127.0.0.1:8000).
 
 
 4. Enter a movie title and receive a list of recommended similar movies.
