@@ -66,7 +66,7 @@ source venv/bin/activate   # macOS / Linux
 
 
 3. Install dependencies
-Ensure you have a requirements.txt listing required packages (e.g. scikit-learn, pandas, flask or fastapi, etc.). Then run:
+Ensure you have a requirements.txt listing required packages (e.g. scikit-learn, pandas,  fastapi, etc.). Then run:
 
 pip install -r requirements.txt
 
@@ -91,7 +91,7 @@ movies_clean.csv
 
 2. Run the main application:
 
-python main.py
+fastapi dev main.py
 
 
 3. Open your browser and navigate to the displayed URL (e.g. http://127.0.0.1:8000).
